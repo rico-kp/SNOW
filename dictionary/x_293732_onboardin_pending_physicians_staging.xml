@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Pending Physicians Staging" max_length="40" name="x_293732_onboardin_pending_physicians_staging" type="collection">
+        <element attributes="import_attribute_name=Area,edge_encryption_enabled=true" label="Area" max_length="40" name="u_area" type="string"/>
+        <element attributes="import_attribute_name=Dept,edge_encryption_enabled=true" label="Dept" max_length="40" name="u_dept" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿&quot;First name&quot;" max_length="40" name="u_ï___first_name_" type="string"/>
+        <element attributes="import_attribute_name=Last4SSN,edge_encryption_enabled=true" label="Last4SSN" max_length="40" name="u_last4ssn" type="string"/>
+        <element attributes="import_attribute_name=Last name,edge_encryption_enabled=true" label="Last name" max_length="40" name="u_last_name" type="string"/>
+    </element>
+</database>
