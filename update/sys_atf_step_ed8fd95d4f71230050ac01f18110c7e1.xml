@@ -7,22 +7,22 @@ and Test String = Test String 2
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
-        <order>1</order>
+        <order>2</order>
         <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-14 22:37:57</sys_created_on>
         <sys_id>ed8fd95d4f71230050ac01f18110c7e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_atf_step_ed8fd95d4f71230050ac01f18110c7e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-14 22:37:57</sys_updated_on>
+        <sys_updated_on>2018-11-20 22:42:51</sys_updated_on>
         <table>x_293732_onboardin_testing_table</table>
-        <test display_value="broadcastEventToWorkflows Triggers awaiting for event workflow task copy">5efe991d4f71230050ac01f18110c737</test>
+        <test display_value="broadcastEventToWorkflows Triggers awaiting for event workflow task">5efe991d4f71230050ac01f18110c737</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=ed8fd95d4f71230050ac01f18110c7e1"/>
