@@ -11,17 +11,17 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_293732_onboardin_testing_table</collection>
+        <collection>x_293732_onboardin_pending_physicians</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_293732_onboardin_testing_table">u_test_optional_stringVALCHANGES^EQ<item endquery="false" field="u_test_optional_string" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        <filter_condition table="x_293732_onboardin_pending_physicians">u_string_full_utf8_1VALCHANGES^EQ<item endquery="false" field="u_string_full_utf8_1" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Testing Broadcast Event to Workflows</name>
-        <order>100</order>
+        <name>Create Event When O365 Changes</name>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,30 +30,30 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
    try {
-	broadcastEventToWorkflows(current, 'testingEvent');   
+	broadcastEventToWorkflows(current, 'O365_creation');   
    } catch (err) {
-	   gs.error('error received trying to broadcast testingEvent event to workflows: '+err); 
+	   gs.error('error received trying to broadcast O365_creation event to workflows: '+err); 
    }
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-14 22:14:57</sys_created_on>
+        <sys_created_on>2018-11-21 16:38:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>30a951994f71230050ac01f18110c793</sys_id>
+        <sys_id>24805ceb0ff92300c3158e8ce1050e01</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Testing Broadcast Event to Workflows</sys_name>
+        <sys_name>Create Event When O365 Changes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
-        <sys_update_name>sys_script_30a951994f71230050ac01f18110c793</sys_update_name>
+        <sys_update_name>sys_script_24805ceb0ff92300c3158e8ce1050e01</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-21 17:12:03</sys_updated_on>
+        <sys_updated_on>2018-11-21 17:10:00</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=30a951994f71230050ac01f18110c793"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=24805ceb0ff92300c3158e8ce1050e01"/>
 </record_update>

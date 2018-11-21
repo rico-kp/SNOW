@@ -6,5 +6,6 @@
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="255" name="u_last_name" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="NUID" max_length="255" name="u_nuid" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="SSN" max_length="255" name="u_ssn" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="O365" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
     </element>
 </database>
