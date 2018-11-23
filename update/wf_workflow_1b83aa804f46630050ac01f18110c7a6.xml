@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{},"ends":["4c472a444f46630050ac01f18110c713"],"subflows":[],"stages":{}}</activity_stages>
+        <activity_stages>{"activities":{},"ends":["a853f64c4f46630050ac01f18110c7a4"],"subflows":[],"stages":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description>Testing provisioning workflow.</description>
-        <expected_sequences>0c472a444f46630050ac01f18110c714,84472a444f46630050ac01f18110c712,4c472a444f46630050ac01f18110c713</expected_sequences>
+        <expected_sequences>6853f64c4f46630050ac01f18110c7a3,6853f64c4f46630050ac01f18110c7a5,5273b6c84f46630050ac01f18110c7b0,a853f64c4f46630050ac01f18110c7a4</expected_sequences>
         <expected_time/>
         <expected_time_type/>
-        <full_sequences>0c472a444f46630050ac01f18110c714,84472a444f46630050ac01f18110c712,4c472a444f46630050ac01f18110c713</full_sequences>
+        <full_sequences>6853f64c4f46630050ac01f18110c7a3,6853f64c4f46630050ac01f18110c7a5,5273b6c84f46630050ac01f18110c7b0,a853f64c4f46630050ac01f18110c7a4</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Testing Provisioning Workflow</name>
@@ -27,16 +27,16 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">0c472a444f46630050ac01f18110c714</start>
+        <start display_value="Begin">6853f64c4f46630050ac01f18110c7a3</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>8c472a444f46630050ac01f18110c70f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2018-11-23 17:45:11</sys_created_on>
+        <sys_id>2053f64c4f46630050ac01f18110c7a1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:59:30</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:51:36</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="Testing Provisioning Workflow">1b83aa804f46630050ac01f18110c7a6</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -68,78 +68,78 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>1100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>0c472a444f46630050ac01f18110c711</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6c53f64c4f46630050ac01f18110c7a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Delivery</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>140</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>84472a444f46630050ac01f18110c711</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>ec53f64c4f46630050ac01f18110c7a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>delivery</value>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfillment</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>120</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>8c472a444f46630050ac01f18110c711</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>e053f64c4f46630050ac01f18110c7a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>fulfillment</value>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1000</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>88472a444f46630050ac01f18110c711</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6053f64c4f46630050ac01f18110c7a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>Request Cancelled</value>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Approved</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>90</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>00472a444f46630050ac01f18110c712</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6853f64c4f46630050ac01f18110c7a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>request_approved</value>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Waiting for Approval</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>08472a444f46630050ac01f18110c711</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>e853f64c4f46630050ac01f18110c7a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>waiting_for_approval</value>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -157,21 +157,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>0c472a444f46630050ac01f18110c714</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6853f64c4f46630050ac01f18110c7a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=0c472a444f46630050ac01f18110c714"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6853f64c4f46630050ac01f18110c7a3"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">0c472a444f46630050ac01f18110c714</activity>
+        <activity display_value="Begin">6853f64c4f46630050ac01f18110c7a3</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -185,11 +185,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>c4472a444f46630050ac01f18110c715</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>2453f64c4f46630050ac01f18110c7a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -207,19 +207,97 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>4c472a444f46630050ac01f18110c713</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>a853f64c4f46630050ac01f18110c7a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:48:12</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
-        <x>400</x>
-        <y>150</y>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
+        <x>473</x>
+        <y>372</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=4c472a444f46630050ac01f18110c713"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a853f64c4f46630050ac01f18110c7a4"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Return Value">9b2dba250a0a0b6400396e341ba9d9a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Return Sample Value</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 17:48:06</sys_created_on>
+        <sys_id>5273b6c84f46630050ac01f18110c7b0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 17:48:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
+        <x>395</x>
+        <y>142</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5273b6c84f46630050ac01f18110c7b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5273b6c84f46630050ac01f18110c7b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 17:48:06</sys_created_on>
+        <sys_id>17f3b6c84f46630050ac01f18110c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 17:48:06</sys_updated_on>
+        <value>workflow.variables.example_value + " Return Value"</value>
+        <variable display_value="">9b2e2cdf0a0a0b6400b2257f77a7db13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5273b6c84f46630050ac01f18110c7b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 17:48:06</sys_created_on>
+        <sys_id>17f3b6c84f46630050ac01f18110c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 17:48:06</sys_updated_on>
+        <value>workflow.variables.example_value + " Return Value"</value>
+        <variable display_value="">9b2e2cdf0a0a0b6400b2257f77a7db13</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Return Sample Value">5273b6c84f46630050ac01f18110c7b0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 17:48:06</sys_created_on>
+        <sys_id>dff3b6c84f46630050ac01f18110c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 17:48:06</sys_updated_on>
+    </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -236,30 +314,30 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>84472a444f46630050ac01f18110c712</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6853f64c4f46630050ac01f18110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:56:16</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
         <x>190</x>
         <y>44</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=84472a444f46630050ac01f18110c712"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6853f64c4f46630050ac01f18110c7a5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84472a444f46630050ac01f18110c712</document_key>
+        <document_key>6853f64c4f46630050ac01f18110c7a5</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>0c472a444f46630050ac01f18110c712</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>ec53f64c4f46630050ac01f18110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:56:16</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>workflow.info('In testing script');&#13;
 workflow.info('Value: ' + workflow.variables.example_value);&#13;
 </value>
@@ -267,22 +345,22 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84472a444f46630050ac01f18110c712</document_key>
+        <document_key>6853f64c4f46630050ac01f18110c7a5</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>0c472a444f46630050ac01f18110c712</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>ec53f64c4f46630050ac01f18110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:56:16</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <value>workflow.info('In testing script');&#13;
 workflow.info('Value: ' + workflow.variables.example_value);&#13;
 </value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Testing Script">84472a444f46630050ac01f18110c712</activity>
+        <activity display_value="Testing Script">6853f64c4f46630050ac01f18110c7a5</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -296,33 +374,44 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>c4472a444f46630050ac01f18110c713</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>e853f64c4f46630050ac01f18110c7a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c4472a444f46630050ac01f18110c713</condition>
-        <from display_value="Testing Script">84472a444f46630050ac01f18110c712</from>
+        <condition display_value="Always">e853f64c4f46630050ac01f18110c7a6</condition>
+        <from display_value="Testing Script">6853f64c4f46630050ac01f18110c7a5</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>48472a444f46630050ac01f18110c716</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>a053f64c4f46630050ac01f18110c7a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
-        <to display_value="End">4c472a444f46630050ac01f18110c713</to>
+        <sys_updated_on>2018-11-23 17:48:10</sys_updated_on>
+        <to display_value="Return Sample Value">5273b6c84f46630050ac01f18110c7b0</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c4472a444f46630050ac01f18110c715</condition>
-        <from display_value="Begin">0c472a444f46630050ac01f18110c714</from>
+        <condition display_value="Always">dff3b6c84f46630050ac01f18110c7d2</condition>
+        <from display_value="Return Sample Value">5273b6c84f46630050ac01f18110c7b0</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>4c472a444f46630050ac01f18110c716</sys_id>
+        <sys_created_on>2018-11-23 17:48:10</sys_created_on>
+        <sys_id>b3f3b64c4f46630050ac01f18110c78a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
-        <to display_value="Testing Script">84472a444f46630050ac01f18110c712</to>
+        <sys_updated_on>2018-11-23 17:48:10</sys_updated_on>
+        <to display_value="End">a853f64c4f46630050ac01f18110c7a4</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">2453f64c4f46630050ac01f18110c7a4</condition>
+        <from display_value="Begin">6853f64c4f46630050ac01f18110c7a3</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>ec53f64c4f46630050ac01f18110c7a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
+        <to display_value="Testing Script">6853f64c4f46630050ac01f18110c7a5</to>
     </wf_transition>
     <wf_variable action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -382,8 +471,8 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
         <summary_macro/>
         <sys_class_name>wf_variable</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:54:01</sys_created_on>
-        <sys_id>ed57e6444f46630050ac01f18110c719</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6453f64c4f46630050ac01f18110c7a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -391,7 +480,7 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:54:01</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -406,25 +495,25 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
-        <workflow display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow>
+        <workflow display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow>
         <write_roles/>
     </wf_variable>
-    <sys_translated_text action="delete_multiple" query="documentkey=ed57e6444f46630050ac01f18110c719"/>
-    <fx_price action="delete_multiple" query="id=ed57e6444f46630050ac01f18110c719"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6453f64c4f46630050ac01f18110c7a8"/>
+    <fx_price action="delete_multiple" query="id=6453f64c4f46630050ac01f18110c7a8"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>ed57e6444f46630050ac01f18110c719</id>
+        <id>6453f64c4f46630050ac01f18110c7a8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:54:01</sys_created_on>
-        <sys_id>0f97ae444f46630050ac01f18110c7ca</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>6853f64c4f46630050ac01f18110c7aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:54:01</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <table>wf_variable</table>
         <type>calculated</type>
     </fx_price>
@@ -432,16 +521,16 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>ed57e6444f46630050ac01f18110c719</id>
+        <id>6453f64c4f46630050ac01f18110c7a8</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:54:01</sys_created_on>
-        <sys_id>c397ae444f46630050ac01f18110c7c9</sys_id>
+        <sys_created_on>2018-11-23 17:45:12</sys_created_on>
+        <sys_id>e853f64c4f46630050ac01f18110c7a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:54:01</sys_updated_on>
+        <sys_updated_on>2018-11-23 17:45:12</sys_updated_on>
         <table>wf_variable</table>
         <type>calculated</type>
     </fx_price>
@@ -450,14 +539,14 @@ workflow.info('Value: ' + workflow.variables.example_value);&#13;
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-23 16:52:27</sys_created_on>
-        <sys_id>40472a444f46630050ac01f18110c710</sys_id>
+        <sys_created_on>2018-11-23 17:45:11</sys_created_on>
+        <sys_id>e053f64c4f46630050ac01f18110c7a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:52:27</sys_updated_on>
-        <workflow_version display_value="Testing Provisioning Workflow">8c472a444f46630050ac01f18110c70f</workflow_version>
+        <sys_updated_on>2018-11-23 17:45:11</sys_updated_on>
+        <workflow_version display_value="Testing Provisioning Workflow">2053f64c4f46630050ac01f18110c7a1</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=1b83aa804f46630050ac01f18110c7a6^sys_id!=8c472a444f46630050ac01f18110c70f">
+    <wf_workflow_version action="update_multiple" query="workflow=1b83aa804f46630050ac01f18110c7a6^sys_id!=2053f64c4f46630050ac01f18110c7a1">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
