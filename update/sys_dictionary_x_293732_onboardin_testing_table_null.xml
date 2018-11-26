@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-14 22:01:08</sys_created_on>
-        <sys_id>83bc564c4f06630050ac01f18110c7f4</sys_id>
+        <sys_id>ec7ceec94f42230050ac01f18110c729</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_293732_onboardin_testing_table</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_dictionary_x_293732_onboardin_testing_table_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-23 16:06:35</sys_updated_on>
+        <sys_updated_on>2018-11-26 19:49:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
