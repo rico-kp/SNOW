@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Pending Physicians" max_length="40" name="x_293732_onboardin_pending_physicians" type="collection">
+        <element label="Stage" max_length="80" name="stage" type="workflow"/>
         <element attributes="edge_encryption_enabled=true" label="Department" mandatory="true" max_length="255" name="u_department" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Facility" mandatory="true" max_length="255" name="u_facility" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="255" name="u_first_name" type="string_full_utf8"/>
