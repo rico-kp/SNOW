@@ -2,25 +2,25 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>For users needing access to San Francisco</description>
+        <description>For users need access to Oakland records</description>
         <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_293732_onboardin.SanFanciscoRole</name>
+        <name>x_293732_onboardin.OaklandRole</name>
         <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
-        <suffix>SanFanciscoRole</suffix>
+        <suffix>OaklandRole</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-11 23:50:38</sys_created_on>
-        <sys_id>290330c64f52230050ac01f18110c731</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_293732_onboardin.SanFanciscoRole</sys_name>
+        <sys_created_on>2018-12-17 18:46:08</sys_created_on>
+        <sys_id>3547263f4f12230050ac01f18110c70a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_293732_onboardin.OaklandRole</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
-        <sys_update_name>sys_user_role_290330c64f52230050ac01f18110c731</sys_update_name>
+        <sys_update_name>sys_user_role_3547263f4f12230050ac01f18110c70a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-17 19:21:06</sys_updated_on>
+        <sys_updated_on>2018-12-17 18:46:08</sys_updated_on>
     </sys_user_role>
 </record_update>
