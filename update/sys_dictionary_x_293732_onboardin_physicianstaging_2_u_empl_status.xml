@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-28 18:04:45</sys_created_on>
-        <sys_id>3fb76cb14f02230050ac01f18110c7ad</sys_id>
+        <sys_id>3acf92d04f72230050ac01f18110c72c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>empl_status</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_dictionary_x_293732_onboardin_physicianstaging_2_u_empl_status</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-28 18:04:45</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-31 17:45:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

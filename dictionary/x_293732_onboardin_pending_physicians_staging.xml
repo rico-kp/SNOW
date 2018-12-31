@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="Pending Physicians Staging" max_length="40" name="x_293732_onboardin_pending_physicians_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="action" max_length="40" name="u_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="action_reason" max_length="40" name="u_action_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="admin_title" max_length="40" name="u_admin_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="adm_desc" max_length="40" name="u_adm_desc" type="string"/>
         <element attributes="import_attribute_name=Area,edge_encryption_enabled=true" label="Area" max_length="40" name="u_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="birthdate" max_length="40" name="u_birthdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="company_descr" max_length="40" name="u_company_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="company_id" max_length="40" name="u_company_id" type="string"/>
         <element attributes="import_attribute_name=Dept,edge_encryption_enabled=true" label="Dept" max_length="40" name="u_dept" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="dept_descr" max_length="40" name="u_dept_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="dept_id" max_length="40" name="u_dept_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="emplid" max_length="40" name="u_emplid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="empl_status" max_length="40" name="u_empl_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="empl_status_descr" max_length="40" name="u_empl_status_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="entity" max_length="40" name="u_entity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="first_name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="hire_dt" max_length="40" name="u_hire_dt" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ï»¿&quot;First name&quot;" max_length="40" name="u_ï___first_name_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="jobcode" max_length="40" name="u_jobcode" type="string"/>
         <element attributes="import_attribute_name=Last4SSN,edge_encryption_enabled=true" label="Last4SSN" max_length="40" name="u_last4ssn" type="string"/>
         <element attributes="import_attribute_name=Last name,edge_encryption_enabled=true" label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="loc_address1" max_length="40" name="u_loc_address1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="loc_city" max_length="40" name="u_loc_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="loc_descr" max_length="40" name="u_loc_descr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="loc_postal" max_length="40" name="u_loc_postal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="loc_state" max_length="40" name="u_loc_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="manager_name" max_length="40" name="u_manager_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="manager_nuid" max_length="40" name="u_manager_nuid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="middle_initial" max_length="40" name="u_middle_initial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="name_prefix" max_length="40" name="u_name_prefix" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="name_suffix" max_length="40" name="u_name_suffix" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="prov_lic_first_name" max_length="40" name="u_prov_lic_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="prov_lic_last_name" max_length="40" name="u_prov_lic_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="prov_lic_middle_initial" max_length="40" name="u_prov_lic_middle_initial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="region_cd" max_length="40" name="u_region_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="site_id" max_length="40" name="u_site_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ssn" max_length="40" name="u_ssn" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="termination_dt" max_length="40" name="u_termination_dt" type="string"/>
     </element>
 </database>
