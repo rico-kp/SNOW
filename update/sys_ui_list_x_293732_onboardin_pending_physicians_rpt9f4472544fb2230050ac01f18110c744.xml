@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>opened_at</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>caller_id</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>category</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assignment_group</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,7 +138,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -153,7 +153,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_by</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="13b1479c4fb2230050ac01f18110c703">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
@@ -190,7 +190,7 @@
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
             <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt9f4472544fb2230050ac01f18110c744" name="RPT9f4472544fb2230050ac01f18110c744">13b1479c4fb2230050ac01f18110c703</view>
+            <view display_value="Rpt9f4472544fb2230050ac01f18110c744" name="RPT9f4472544fb2230050ac01f18110c744">05d607144ff2230050ac01f18110c758</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

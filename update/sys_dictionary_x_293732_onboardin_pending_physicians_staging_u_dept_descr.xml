@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
         <sys_created_on>2018-12-31 18:57:35</sys_created_on>
-        <sys_id>ab4036104fb2230050ac01f18110c7ec</sys_id>
+        <sys_id>beb6cbd04ff2230050ac01f18110c75a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>dept_descr</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_dictionary_x_293732_onboardin_pending_physicians_staging_u_dept_descr</sys_update_name>
-        <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-        <sys_updated_on>2018-12-31 18:57:35</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-31 20:35:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
