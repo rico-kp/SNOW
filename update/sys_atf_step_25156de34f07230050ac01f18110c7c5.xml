@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate record from table 'item_option_new' matches the following condition:
+Name = cortext
+and Type = CheckBox
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>25156de34f07230050ac01f18110c7c5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_atf_step_25156de34f07230050ac01f18110c7c5</sys_update_name>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:22:40</sys_updated_on>
+        <table>item_option_new</table>
+        <test display_value="My New Test">1633e5634f07230050ac01f18110c7ed</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=25156de34f07230050ac01f18110c7c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>25156de34f07230050ac01f18110c7c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>364669274f07230050ac01f18110c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>25156de34f07230050ac01f18110c7c5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>3a4669274f07230050ac01f18110c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <value/>
+        <variable display_value="">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>25156de34f07230050ac01f18110c7c5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>724669274f07230050ac01f18110c73f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:22:40</sys_updated_on>
+        <value>name=cortext^type=7^EQ</value>
+        <variable display_value="">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>25156de34f07230050ac01f18110c7c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>be4669274f07230050ac01f18110c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <value>item_option_new</value>
+        <variable display_value="">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>25156de34f07230050ac01f18110c7c5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>fa4669274f07230050ac01f18110c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=25156de34f07230050ac01f18110c7c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>25156de34f07230050ac01f18110c7c5</id>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>3e4669274f07230050ac01f18110c73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>25156de34f07230050ac01f18110c7c5</id>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>b24669274f07230050ac01f18110c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>25156de34f07230050ac01f18110c7c5</id>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>7a4669274f07230050ac01f18110c73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['a5e3a5a34f07230050ac01f18110c74a'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>25156de34f07230050ac01f18110c7c5</id>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:10:11</sys_created_on>
+        <sys_id>fe4669274f07230050ac01f18110c73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:10:11</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

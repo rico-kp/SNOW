@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item/>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TPO Populate Data</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var abc = window.parent.location.href;
+	//alert('sandy'+abc);
+ var fn = getParmVal('sysparam_fname');
+	//alert('fn is '+fn);
+   if(fn){
+	  // alert('inside first if');
+      g_form.setValue('u_first_name',fn);
+   }
+ var ln = getParmVal('sysparam_lname');
+	//alert('ln is '+ln);
+   if(ln){
+	  // alert('inside second if');
+      g_form.setValue('u_last_name',ln);
+           }
+ var mi = getParmVal('sysparam_middlei');
+	//alert('fn is '+fn);
+   if(mi){
+	  // alert('inside first if');
+      g_form.setValue('u_middle_initial',mi);
+   }
+
+	
+	//Rico was here
+var u_ssn = getParmVal('sysparam_u_ssn');
+   if(u_ssn){
+      g_form.setValue('u_ssn',u_ssn);
+   }
+var u_birthdate = getParmVal('sysparam_u_birthdate');
+   if(u_birthdate){
+      g_form.setValue('u_birthdate',u_birthdate);
+   }
+var u_hire_dt = getParmVal('sysparam_u_hire_dt');
+   if(u_hire_dt){
+      g_form.setValue('u_hire_dt',u_hire_dt);
+   }
+var u_termination_dt = getParmVal('sysparam_u_termination_dt');
+   if(u_termination_dt){
+      g_form.setValue('u_termination_dt',u_termination_dt);
+   }
+var u_empl_status = getParmVal('sysparam_u_empl_status');
+   if(u_empl_status){
+      g_form.setValue('u_empl_status',u_empl_status);
+   }
+var u_emplid = getParmVal('sysparam_u_emplid');
+   if(u_emplid){
+      g_form.setValue('u_emplid',u_emplid);
+   }
+var u_entity = getParmVal('sysparam_u_entity');
+   if(u_entity){
+      g_form.setValue('u_entity',u_entity);
+   }
+var u_location = getParmVal('sysparam_u_location');
+   if(u_location){
+      g_form.setValue('u_location',u_location);
+   }
+var u_region_cd = getParmVal('sysparam_u_region_cd');
+   if(u_region_cd){
+      g_form.setValue('u_region_cd',u_region_cd);
+   }
+var u_site_id = getParmVal('sysparam_u_site_id');
+   if(u_site_id){
+      g_form.setValue('u_site_id',u_site_id);
+   }
+var u_loc_address1 = getParmVal('sysparam_u_loc_address1');
+   if(u_loc_address1){
+      g_form.setValue('u_loc_address1',u_loc_address1);
+   }
+var u_loc_city = getParmVal('sysparam_u_loc_city');
+   if(u_loc_city){
+      g_form.setValue('u_loc_city',u_loc_city);
+   }
+var u_loc_state = getParmVal('sysparam_u_loc_state');
+   if(u_loc_state){
+      g_form.setValue('u_loc_state',u_loc_state);
+   }
+var u_loc_postal = getParmVal('sysparam_u_loc_postal');
+   if(u_loc_postal){
+      g_form.setValue('u_loc_postal',u_loc_postal);
+   }
+var u_name_prefix = getParmVal('sysparam_u_name_prefix');
+   if(u_name_prefix){
+      g_form.setValue('u_name_prefix',u_name_prefix);
+   }
+var u_dept_descr = getParmVal('sysparam_u_dept_descr');
+   if(u_dept_descr){
+      g_form.setValue('u_dept_descr',u_dept_descr);
+   }
+var u_dept_id = getParmVal('sysparam_u_dept_id');
+   if(u_dept_id){
+      g_form.setValue('u_dept_id',u_dept_id);
+   }
+var u_adm_desc = getParmVal('sysparam_u_adm_desc');
+   if(u_adm_desc){
+      g_form.setValue('u_adm_desc',u_adm_desc);
+   }
+var u_jobcode = getParmVal('sysparam_u_jobcode');
+   if(u_jobcode){
+      g_form.setValue('u_jobcode',u_jobcode);
+   }
+var u_name_suffix = getParmVal('sysparam_u_name_suffix');
+   if(u_name_suffix){
+      g_form.setValue('u_name_suffix',u_name_suffix);
+   }
+var u_admin_title = getParmVal('sysparam_u_admin_title');
+   if(u_admin_title){
+      g_form.setValue('u_admin_title',u_admin_title);
+   }
+var u_loc_descr = getParmVal('sysparam_u_loc_descr');
+   if(u_loc_descr){
+      g_form.setValue('u_loc_descr',u_loc_descr);
+   }
+var u_action_reason = getParmVal('sysparam_u_action_reason');
+   if(u_action_reason){
+      g_form.setValue('u_action_reason',u_action_reason);
+   }
+var u_action = getParmVal('sysparam_u_action');
+   if(u_action){
+      g_form.setValue('u_action',u_action);
+   }
+var u_company_descr = getParmVal('sysparam_u_company_descr');
+   if(u_company_descr){
+      g_form.setValue('u_company_descr',u_company_descr);
+   }
+var u_company_id = getParmVal('sysparam_u_company_id');
+   if(u_company_id){
+      g_form.setValue('u_company_id',u_company_id);
+   }
+var u_empl_status_descr = getParmVal('sysparam_u_empl_status_descr');
+   if(u_empl_status_descr){
+      g_form.setValue('u_empl_status_descr',u_empl_status_descr);
+   }
+var u_manager_nuid = getParmVal('sysparam_u_manager_nuid');
+   if(u_manager_nuid){
+      g_form.setValue('u_manager_nuid',u_manager_nuid);
+   }
+var u_manager_name = getParmVal('sysparam_u_manager_name');
+   if(u_manager_name){
+      g_form.setValue('u_manager_name',u_manager_name);
+   }
+var u_prov_lic_first_name = getParmVal('sysparam_u_prov_lic_first_name');
+   if(u_prov_lic_first_name){
+      g_form.setValue('u_prov_lic_first_name',u_prov_lic_first_name);
+   }
+var u_prov_lic_middle_initial = getParmVal('sysparam_u_prov_lic_middle_initial');
+   if(u_prov_lic_middle_initial){
+      g_form.setValue('u_prov_lic_middle_initial',u_prov_lic_middle_initial);
+   }
+var u_prov_lic_last_name = getParmVal('sysparam_u_prov_lic_last_name');
+   if(u_prov_lic_last_name){
+      g_form.setValue('u_prov_lic_last_name',u_prov_lic_last_name);
+   }
+var u_nuid = getParmVal('sysparam_u_nuid');
+   if(u_nuid){
+      g_form.setValue('u_nuid',u_nuid);
+   }
+var u_kpim_status = getParmVal('sysparam_u_kpim_status');
+   if(u_kpim_status){
+      g_form.setValue('u_kpim_status',u_kpim_status);
+   }
+var u_email = getParmVal('sysparam_u_email');
+   if(u_email){
+      g_form.setValue('u_email',u_email);
+   }
+var u_national_provider_id = getParmVal('sysparam_u_national_provider_id');
+   if(u_national_provider_id){
+      g_form.setValue('u_national_provider_id',u_national_provider_id);
+   }
+var u_lotus_notes_id = getParmVal('sysparam_u_lotus_notes_id');
+   if(u_lotus_notes_id){
+      g_form.setValue('u_lotus_notes_id',u_lotus_notes_id);
+   }
+//end rico
+	
+}
+function getParmVal(name){
+	//alert('inside function');
+   var url = document.URL.parseQuery();
+	//var url2 = window.parent.location.href ;
+	
+    if(url[name]){
+	//	alert('inside if url name');
+        return decodeURI(url[name]);
+    }
+    else{
+		//alert('outside if url name');
+        return;
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-21 21:46:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af606b8f4f07a30050ac01f18110c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TPO Populate Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>catalog_script_client_af606b8f4f07a30050ac01f18110c7a9</sys_update_name>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-21 21:46:50</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open the 'Order guide' form with id 'Order guide: TPMG Onboarding Order Guide'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <order>1</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 21:14:49</sys_created_on>
+        <sys_id>1ff8570b4f07a30050ac01f18110c749</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_atf_step_1ff8570b4f07a30050ac01f18110c749</sys_update_name>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 21:14:49</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <test display_value="TPO Copy order guide (onboarding scope)">ef88530b4f07a30050ac01f18110c702</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=1ff8570b4f07a30050ac01f18110c749"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1ff8570b4f07a30050ac01f18110c749</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 21:14:49</sys_created_on>
+        <sys_id>66199bc74f07a30050ac01f18110c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 21:14:49</sys_updated_on>
+        <value>sc_cat_item_guide</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1ff8570b4f07a30050ac01f18110c749</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 21:14:49</sys_created_on>
+        <sys_id>a2199bc74f07a30050ac01f18110c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 21:14:49</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1ff8570b4f07a30050ac01f18110c749</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 21:14:49</sys_created_on>
+        <sys_id>ae199bc74f07a30050ac01f18110c7a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 21:14:49</sys_updated_on>
+        <value>22081b104f36230050ac01f18110c7ad</value>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+</record_update>

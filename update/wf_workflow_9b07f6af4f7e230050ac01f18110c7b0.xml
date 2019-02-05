@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"stages":{},"subflows":[],"ends":["9b07f6af4f7e230050ac01f18110c7b2"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>1707f6af4f7e230050ac01f18110c7b1,4a17fa6f4f7e230050ac01f18110c7dd,9b07f6af4f7e230050ac01f18110c7b2</expected_sequences>
+        <expected_time/>
+        <expected_time_type/>
+        <full_sequences>1707f6af4f7e230050ac01f18110c7b1,4a17fa6f4f7e230050ac01f18110c7dd,9b07f6af4f7e230050ac01f18110c7b2</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>RACF Workflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">1707f6af4f7e230050ac01f18110c7b1</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>9bf63aaf4f7e230050ac01f18110c762</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-11 13:38:22</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="RACF Workflow">9b07f6af4f7e230050ac01f18110c7b0</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>RACF Workflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b07f6af4f7e230050ac01f18110c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RACF Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>wf_workflow_9b07f6af4f7e230050ac01f18110c7b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>5f077aaf4f7e230050ac01f18110c729</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>57077aaf4f7e230050ac01f18110c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>d3077aaf4f7e230050ac01f18110c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>d7077aaf4f7e230050ac01f18110c729</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>df077aaf4f7e230050ac01f18110c729</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>53077aaf4f7e230050ac01f18110c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>1707f6af4f7e230050ac01f18110c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1707f6af4f7e230050ac01f18110c7b1"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">1707f6af4f7e230050ac01f18110c7b1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>1307f6af4f7e230050ac01f18110c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>9b07f6af4f7e230050ac01f18110c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+        <x>400</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9b07f6af4f7e230050ac01f18110c7b2"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>RACF Email Request</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>4a17fa6f4f7e230050ac01f18110c7dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:06</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+        <x>177</x>
+        <y>40</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4a17fa6f4f7e230050ac01f18110c7dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>2c777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>RACF Access Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>68777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>a0777aaf4f7e230050ac01f18110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>a4777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>ac777aaf4f7e230050ac01f18110c722</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,4df5e5774fae230050ac01f18110c7e3,whafa23@gmail.com</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>ec777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>NUID: ${variables.u_nuid}&#13;
+First Name: ${variables.u_first_name}&#13;
+Last Name: ${variables.u_last_name}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>ac777aaf4f7e230050ac01f18110c722</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,4df5e5774fae230050ac01f18110c7e3,whafa23@gmail.com</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>a0777aaf4f7e230050ac01f18110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>2c777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>RACF Access Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>ec777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>NUID: ${variables.u_nuid}&#13;
+First Name: ${variables.u_first_name}&#13;
+Last Name: ${variables.u_last_name}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>a4777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a17fa6f4f7e230050ac01f18110c7dd</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>68777aaf4f7e230050ac01f18110c723</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="RACF Email Request">4a17fa6f4f7e230050ac01f18110c7dd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:03</sys_created_on>
+        <sys_id>a8777aaf4f7e230050ac01f18110c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:03</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1307f6af4f7e230050ac01f18110c7b2</condition>
+        <from display_value="Begin">1707f6af4f7e230050ac01f18110c7b1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>9307f6af4f7e230050ac01f18110c7b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:06</sys_updated_on>
+        <to display_value="RACF Email Request">4a17fa6f4f7e230050ac01f18110c7dd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a8777aaf4f7e230050ac01f18110c724</condition>
+        <from display_value="RACF Email Request">4a17fa6f4f7e230050ac01f18110c7dd</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:49:06</sys_created_on>
+        <sys_id>dd773e6f4f7e230050ac01f18110c75b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:49:06</sys_updated_on>
+        <to display_value="End">9b07f6af4f7e230050ac01f18110c7b2</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-10 21:47:19</sys_created_on>
+        <sys_id>d307f6af4f7e230050ac01f18110c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-10 21:47:19</sys_updated_on>
+        <workflow_version display_value="RACF Workflow">9bf63aaf4f7e230050ac01f18110c762</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=9b07f6af4f7e230050ac01f18110c7b0^sys_id!=9bf63aaf4f7e230050ac01f18110c762">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

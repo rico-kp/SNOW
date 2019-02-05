@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_293732_onboardin_test_table_no_workflow</description>
+        <name>x_293732_onboardin_test_table_no_workflow</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:43:24</sys_created_on>
+        <sys_id>a9a19cc34f4f630050ac01f18110c73a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_293732_onboardin_test_table_no_workflow</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_security_acl_a9a19cc34f4f630050ac01f18110c73a</sys_update_name>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:43:24</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

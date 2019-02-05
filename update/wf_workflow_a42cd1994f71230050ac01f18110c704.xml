@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{},"ends":["04062dab4f71230050ac01f18110c7ae"],"subflows":[],"stages":{}}</activity_stages>
+        <activity_stages>{"ends":["04062dab4f71230050ac01f18110c7ae"],"activities":{},"stages":{},"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -31,9 +31,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-21 22:50:24</sys_created_on>
         <sys_id>c8062dab4f71230050ac01f18110c7aa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-21 23:03:23</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:39:49</sys_updated_on>
         <table>x_293732_onboardin_testing_table</table>
         <timezone/>
         <validated>false</validated>

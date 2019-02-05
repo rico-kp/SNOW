@@ -3,7 +3,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <cascade>false</cascade>
+        <cascade>true</cascade>
         <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
         <cost>0</cost>
         <custom_cart/>
@@ -53,14 +53,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-31 21:54:01</sys_created_on>
         <sys_id>22081b104f36230050ac01f18110c7ad</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>TPMG Onboarding Order Guide</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sc_cat_item_guide_22081b104f36230050ac01f18110c7ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-31 21:55:16</sys_updated_on>
+        <sys_updated_on>2019-01-11 13:44:02</sys_updated_on>
         <template/>
         <two_step>true</two_step>
         <type>item</type>

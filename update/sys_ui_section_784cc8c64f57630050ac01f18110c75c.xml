@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="784cc8c64f57630050ac01f18110c75c" sys_domain="global" table="x_293732_onboardin_tpo_facilities_staging" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+            <sys_created_on>2019-01-30 14:01:38</sys_created_on>
+            <sys_id>344cc00a4f57630050ac01f18110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293732_onboardin_tpo_facilities_staging" sys_domain="global" view="Default view">784cc8c64f57630050ac01f18110c75c</sys_ui_section>
+            <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+            <sys_updated_on>2019-01-30 14:01:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_facility</element>
+            <position>1</position>
+            <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+            <sys_created_on>2019-01-30 14:01:38</sys_created_on>
+            <sys_id>b44cc00a4f57630050ac01f18110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293732_onboardin_tpo_facilities_staging" sys_domain="global" view="Default view">784cc8c64f57630050ac01f18110c75c</sys_ui_section>
+            <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+            <sys_updated_on>2019-01-30 14:01:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+            <sys_created_on>2019-01-30 14:01:38</sys_created_on>
+            <sys_id>384cc00a4f57630050ac01f18110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293732_onboardin_tpo_facilities_staging" sys_domain="global" view="Default view">784cc8c64f57630050ac01f18110c75c</sys_ui_section>
+            <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+            <sys_updated_on>2019-01-30 14:01:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mnemonic</element>
+            <position>3</position>
+            <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+            <sys_created_on>2019-01-30 14:01:38</sys_created_on>
+            <sys_id>b84cc00a4f57630050ac01f18110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293732_onboardin_tpo_facilities_staging" sys_domain="global" view="Default view">784cc8c64f57630050ac01f18110c75c</sys_ui_section>
+            <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+            <sys_updated_on>2019-01-30 14:01:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+            <sys_created_on>2019-01-30 14:01:38</sys_created_on>
+            <sys_id>3c4cc00a4f57630050ac01f18110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293732_onboardin_tpo_facilities_staging" sys_domain="global" view="Default view">784cc8c64f57630050ac01f18110c75c</sys_ui_section>
+            <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+            <sys_updated_on>2019-01-30 14:01:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_293732_onboardin_tpo_facilities_staging</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+            <sys_created_on>2019-01-30 14:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>784cc8c64f57630050ac01f18110c75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_293732_onboardin_tpo_facilities_staging</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+            <sys_update_name>sys_ui_section_784cc8c64f57630050ac01f18110c75c</sys_update_name>
+            <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+            <sys_updated_on>2019-01-30 14:01:38</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

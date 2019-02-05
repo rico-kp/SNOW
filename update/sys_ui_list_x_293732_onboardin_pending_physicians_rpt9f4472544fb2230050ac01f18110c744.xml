@@ -2,168 +2,93 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_293732_onboardin_pending_physicians" version="2" view="RPT9f4472544fb2230050ac01f18110c744">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <element>u_first_name</element>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">1e9b46914f7e230050ac01f18110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>b7f10b9c4fb2230050ac01f18110c75e</sys_id>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
+            <sys_id>569b46914f7e230050ac01f18110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>opened_at</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <element>u_last_name</element>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">1e9b46914f7e230050ac01f18110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>3bf10b9c4fb2230050ac01f18110c75e</sys_id>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
+            <sys_id>d69b46914f7e230050ac01f18110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <element>u_hire_dt</element>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">1e9b46914f7e230050ac01f18110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>bbf10b9c4fb2230050ac01f18110c75e</sys_id>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
+            <sys_id>5a9b46914f7e230050ac01f18110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>caller_id</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <element>u_department</element>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">1e9b46914f7e230050ac01f18110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>3ff10b9c4fb2230050ac01f18110c75e</sys_id>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
+            <sys_id>da9b46914f7e230050ac01f18110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <element>u_nuid</element>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">1e9b46914f7e230050ac01f18110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>bff10b9c4fb2230050ac01f18110c75e</sys_id>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
+            <sys_id>5e9b46914f7e230050ac01f18110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
+            <element>stage</element>
+            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">1e9b46914f7e230050ac01f18110c7f4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>33f10b9c4fb2230050ac01f18110c75f</sys_id>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
+            <sys_id>de9b46914f7e230050ac01f18110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>category</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>b3f10b9c4fb2230050ac01f18110c75f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>assignment_group</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>37f10b9c4fb2230050ac01f18110c75f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>b7f10b9c4fb2230050ac01f18110c75f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>3bf10b9c4fb2230050ac01f18110c75f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_293732_onboardin_pending_physicians" element="NULL" name="x_293732_onboardin_pending_physicians" parent="NULL" relationship="NULL" sys_domain="global" view="05d607144ff2230050ac01f18110c758">fff10b9c4fb2230050ac01f18110c75d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>10</position>
-            <sum>false</sum>
-            <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
-            <sys_id>bbf10b9c4fb2230050ac01f18110c75f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -177,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>Sherri.L.Rodgers@kp.org</sys_created_by>
-            <sys_created_on>2018-12-31 20:14:53</sys_created_on>
+            <sys_created_on>2019-01-03 18:51:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fff10b9c4fb2230050ac01f18110c75d</sys_id>
+            <sys_id>1e9b46914f7e230050ac01f18110c7f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_293732_onboardin_pending_physicians</sys_name>
             <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
@@ -188,7 +113,7 @@
             <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
             <sys_update_name>sys_ui_list_x_293732_onboardin_pending_physicians_RPT9f4472544fb2230050ac01f18110c744</sys_update_name>
             <sys_updated_by>Sherri.L.Rodgers@kp.org</sys_updated_by>
-            <sys_updated_on>2018-12-31 20:14:53</sys_updated_on>
+            <sys_updated_on>2019-01-03 18:51:07</sys_updated_on>
             <sys_user/>
             <view display_value="Rpt9f4472544fb2230050ac01f18110c744" name="RPT9f4472544fb2230050ac01f18110c744">05d607144ff2230050ac01f18110c758</view>
             <view_name/>

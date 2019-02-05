@@ -2,12 +2,48 @@
     <element label="Pending Physicians" max_length="40" name="x_293732_onboardin_pending_physicians" type="collection">
         <element label="CPM" max_length="40" name="cpm" type="string_full_utf8"/>
         <element label="Stage" max_length="80" name="stage" type="workflow"/>
+        <element label="Action" max_length="40" name="u_action" type="string_full_utf8"/>
+        <element label="Action Reason" max_length="40" name="u_action_reason" type="string_full_utf8"/>
+        <element label="Admin Title" max_length="40" name="u_admin_title" type="string_full_utf8"/>
+        <element label="Admin Description" max_length="40" name="u_adm_desc" type="string_full_utf8"/>
+        <element label="Birth Date" max_length="40" name="u_birth_date" type="glide_date"/>
+        <element label="Company Description" max_length="40" name="u_company_descr" type="string_full_utf8"/>
+        <element label="Company ID" max_length="9" name="u_company_id" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Department" mandatory="true" max_length="255" name="u_department" type="string_full_utf8"/>
+        <element label="Dept Description" max_length="40" name="u_dept_descr" type="string_full_utf8"/>
+        <element label="Dept ID" max_length="4" name="u_dept_id" type="string_full_utf8"/>
+        <element label="Email" max_length="80" name="u_email" type="string_full_utf8"/>
+        <element label="Employee ID" max_length="8" name="u_emplid" type="string_full_utf8"/>
+        <element label="Employee Status" max_length="1" name="u_empl_status" type="string_full_utf8"/>
+        <element label="Employee Status Description" max_length="40" name="u_empl_status_descr" type="string_full_utf8"/>
+        <element label="Entity" max_length="1" name="u_entity" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Facility" mandatory="true" max_length="255" name="u_facility" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="255" name="u_first_name" type="string_full_utf8"/>
+        <element label="Hire Date" max_length="40" name="u_hire_dt" type="glide_date"/>
+        <element label="Job Code" max_length="2" name="u_jobcode" type="string_full_utf8"/>
+        <element label="KPIM Status" max_length="80" name="u_kpim_status" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="255" name="u_last_name" type="string_full_utf8"/>
+        <element label="Location" max_length="5" name="u_location" type="string_full_utf8"/>
+        <element label="Location Address" max_length="40" name="u_loc_address1" type="string_full_utf8"/>
+        <element label="Location City" max_length="40" name="u_loc_city" type="string_full_utf8"/>
+        <element label="Location Description" max_length="40" name="u_loc_descr" type="string_full_utf8"/>
+        <element label="Location Postal Code" max_length="5" name="u_loc_postal" type="string_full_utf8"/>
+        <element label="Location State" max_length="2" name="u_loc_state" type="string_full_utf8"/>
+        <element label="Lotus Notes ID" max_length="60" name="u_lotus_notes_id" type="string_full_utf8"/>
+        <element label="Manager Name" max_length="40" name="u_manager_name" type="string_full_utf8"/>
+        <element label="Manager NUID" max_length="7" name="u_manager_nuid" type="string_full_utf8"/>
+        <element label="Middle Initial" max_length="1" name="u_middle_initial" type="string_full_utf8"/>
+        <element label="Name Prefix" max_length="5" name="u_name_prefix" type="string_full_utf8"/>
+        <element label="Name Suffix" max_length="5" name="u_name_suffix" type="string_full_utf8"/>
+        <element label="National Provider ID" max_length="15" name="u_national_provider_id" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="NUID" max_length="255" name="u_nuid" type="string_full_utf8"/>
+        <element label="Provider License First Name" max_length="40" name="u_prov_lic_first_name" type="string_full_utf8"/>
+        <element label="Provider License Last Name" max_length="40" name="u_prov_lic_last_name" type="string_full_utf8"/>
+        <element label="Provider License Middle Initial" max_length="1" name="u_prov_lic_middle_initial" type="string_full_utf8"/>
+        <element label="Region Code" max_length="2" name="u_region_cd" type="string_full_utf8"/>
+        <element label="Site ID" max_length="5" name="u_site_id" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="SSN" max_length="255" name="u_ssn" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="O365" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
+        <element label="Termination Date" max_length="40" name="u_termination_dt" type="glide_date"/>
     </element>
 </database>

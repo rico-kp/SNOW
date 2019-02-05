@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate there is at least one record in 'item_option_new' matching query:
+Catalog item = TPMG Onboarding Order Guide
+and Question = Cortext
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <order>1</order>
+        <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:04:34</sys_created_on>
+        <sys_id>a5e3a5a34f07230050ac01f18110c74a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_atf_step_a5e3a5a34f07230050ac01f18110c74a</sys_update_name>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:21:47</sys_updated_on>
+        <table>item_option_new</table>
+        <test display_value="My New Test">1633e5634f07230050ac01f18110c7ed</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a5e3a5a34f07230050ac01f18110c74a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5e3a5a34f07230050ac01f18110c74a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:04:34</sys_created_on>
+        <sys_id>a80565e34f07230050ac01f18110c73c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:21:47</sys_updated_on>
+        <value>cat_item=22081b104f36230050ac01f18110c7ad^question_text=Cortext^EQ</value>
+        <variable display_value="">cf167c405f30220012b44adb7f46660d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5e3a5a34f07230050ac01f18110c74a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:04:34</sys_created_on>
+        <sys_id>e40565e34f07230050ac01f18110c73c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:04:34</sys_updated_on>
+        <value>item_option_new</value>
+        <variable display_value="">6fe5f8405f30220012b44adb7f4666e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5e3a5a34f07230050ac01f18110c74a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-23 02:04:34</sys_created_on>
+        <sys_id>ec0565e34f07230050ac01f18110c73b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-23 02:04:34</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="">dd091e22675003007ba405225685ef69</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"ends":["12aafd3e4f7a230050ac01f18110c710"],"stages":{},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>Workflow to process new CPM record service request</description>
+        <expected_sequences>1eaab97e4f7a230050ac01f18110c7eb,5eaab97e4f7a230050ac01f18110c7ec,12aafd3e4f7a230050ac01f18110c710</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>1eaab97e4f7a230050ac01f18110c7eb,5eaab97e4f7a230050ac01f18110c7ec,12aafd3e4f7a230050ac01f18110c710</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>TPO New Service Request - CPM</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">1eaab97e4f7a230050ac01f18110c7eb</start>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d2aafd3e4f7a230050ac01f18110c70e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:32:35</sys_updated_on>
+        <table>x_293732_onboardin_pending_physicians</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="TPO New Service Request - CPM">8dbeaaaa4fb2230050ac01f18110c7a1</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Workflow to process new CPM record service request</description>
+        <name>TPO New Service Request - CPM</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 18:36:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8dbeaaaa4fb2230050ac01f18110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TPO New Service Request - CPM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>wf_workflow_8dbeaaaa4fb2230050ac01f18110c7a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-07 18:36:55</sys_updated_on>
+        <table>x_293732_onboardin_pending_physicians</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>1eaab97e4f7a230050ac01f18110c7eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="TPO New Service Request - CPM">d2aafd3e4f7a230050ac01f18110c70e</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1eaab97e4f7a230050ac01f18110c7eb"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">1eaab97e4f7a230050ac01f18110c7eb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d6aab97e4f7a230050ac01f18110c7ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Email CPM Admin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>5eaab97e4f7a230050ac01f18110c7ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:30:53</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="TPO New Service Request - CPM">d2aafd3e4f7a230050ac01f18110c70e</workflow_version>
+        <x>176</x>
+        <y>42</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5eaab97e4f7a230050ac01f18110c7ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>16aab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:30:53</sys_updated_on>
+        <value>&lt;p&gt;A new physician is pending your approval.&amp;nbsp; Please click &lt;a title="here" href="https://dev43357.service-now.com/com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=22081b104f36230050ac01f18110c7ad&amp;amp;sysparam_fname=${u_first_name}&amp;amp;sysparam_lname=${u_last_name}&amp;amp;sysparam_middlei=${u_middle_initial}&amp;amp;sysparam_u_ssn=${u_ssn}&amp;amp;sysparam_u_birthdate=${u_birthdate}&amp;amp;sysparam_u_hire_dt=${u_hire_dt}&amp;amp;sysparam_u_termination_dt=${u_termination_dt}&amp;amp;sysparam_u_empl_status=${u_empl_status}&amp;amp;sysparam_u_emplid=${u_emplid}&amp;amp;sysparam_u_entity=${u_entity}&amp;amp;sysparam_u_location=${u_location}&amp;amp;sysparam_u_region_cd=${u_region_cd}&amp;amp;sysparam_u_site_id=${u_site_id}&amp;amp;sysparam_u_loc_address1=${u_loc_address1}&amp;amp;sysparam_u_loc_city=${u_loc_city}&amp;amp;sysparam_u_loc_state=${u_loc_state}&amp;amp;sysparam_u_loc_postal=${u_loc_postal}&amp;amp;sysparam_u_name_prefix=${u_name_prefix}&amp;amp;sysparam_u_dept_descr=${u_dept_descr}&amp;amp;sysparam_u_dept_id=${u_dept_id}&amp;amp;sysparam_u_adm_desc=${u_adm_desc}&amp;amp;sysparam_u_jobcode=${u_jobcode}&amp;amp;sysparam_u_name_suffix=${u_name_suffix}&amp;amp;sysparam_u_admin_title=${u_admin_title}&amp;amp;sysparam_u_loc_descr=${u_loc_descr}&amp;amp;sysparam_u_action_reason=${u_action_reason}&amp;amp;sysparam_u_action=${u_action}&amp;amp;sysparam_u_company_descr=${u_company_descr}&amp;amp;sysparam_u_company_id=${u_company_id}&amp;amp;sysparam_u_empl_status_descr=${u_empl_status_descr}&amp;amp;sysparam_u_manager_nuid=${u_manager_nuid}&amp;amp;sysparam_u_manager_name=${u_manager_name}&amp;amp;sysparam_u_prov_lic_first_name=${u_prov_lic_first_name}&amp;amp;sysparam_u_prov_lic_middle_initial=${u_prov_lic_middle_initial}&amp;amp;sysparam_u_prov_lic_last_name=${u_prov_lic_last_name}&amp;amp;sysparam_u_nuid=${u_nuid}&amp;amp;sysparam_u_kpim_status=${u_kpim_status}&amp;amp;sysparam_u_email=${u_email}&amp;amp;sysparam_u_national_provider_id=${u_national_provider_id}&amp;amp;sysparam_u_lotus_notes_id=${u_lotus_notes_id}"&gt;here&lt;/a&gt; to open the pending order guide.&lt;/p&gt;&#13;
+&lt;p&gt;Sys ID: ${sys_id}&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Name: ${u_first_name}&amp;nbsp;${u_last_name}&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>52aab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value>KPIM: NCAL CPM Record Request for ${u_first_name} ${u_last_name} by 08/20/2018</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>9eaab97e4f7a230050ac01f18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+answer='whafa23@gmail.com,richard.thomas@kp.org';&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d2aab97e4f7a230050ac01f18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d6aab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>daaab97e4f7a230050ac01f18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d2aab97e4f7a230050ac01f18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d6aab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>52aab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value>KPIM: NCAL CPM Record Request for ${u_first_name} ${u_last_name} by 08/20/2018</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>16aab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:30:53</sys_updated_on>
+        <value>&lt;p&gt;A new physician is pending your approval.&amp;nbsp; Please click &lt;a title="here" href="https://dev43357.service-now.com/com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=22081b104f36230050ac01f18110c7ad&amp;amp;sysparam_fname=${u_first_name}&amp;amp;sysparam_lname=${u_last_name}&amp;amp;sysparam_middlei=${u_middle_initial}&amp;amp;sysparam_u_ssn=${u_ssn}&amp;amp;sysparam_u_birthdate=${u_birthdate}&amp;amp;sysparam_u_hire_dt=${u_hire_dt}&amp;amp;sysparam_u_termination_dt=${u_termination_dt}&amp;amp;sysparam_u_empl_status=${u_empl_status}&amp;amp;sysparam_u_emplid=${u_emplid}&amp;amp;sysparam_u_entity=${u_entity}&amp;amp;sysparam_u_location=${u_location}&amp;amp;sysparam_u_region_cd=${u_region_cd}&amp;amp;sysparam_u_site_id=${u_site_id}&amp;amp;sysparam_u_loc_address1=${u_loc_address1}&amp;amp;sysparam_u_loc_city=${u_loc_city}&amp;amp;sysparam_u_loc_state=${u_loc_state}&amp;amp;sysparam_u_loc_postal=${u_loc_postal}&amp;amp;sysparam_u_name_prefix=${u_name_prefix}&amp;amp;sysparam_u_dept_descr=${u_dept_descr}&amp;amp;sysparam_u_dept_id=${u_dept_id}&amp;amp;sysparam_u_adm_desc=${u_adm_desc}&amp;amp;sysparam_u_jobcode=${u_jobcode}&amp;amp;sysparam_u_name_suffix=${u_name_suffix}&amp;amp;sysparam_u_admin_title=${u_admin_title}&amp;amp;sysparam_u_loc_descr=${u_loc_descr}&amp;amp;sysparam_u_action_reason=${u_action_reason}&amp;amp;sysparam_u_action=${u_action}&amp;amp;sysparam_u_company_descr=${u_company_descr}&amp;amp;sysparam_u_company_id=${u_company_id}&amp;amp;sysparam_u_empl_status_descr=${u_empl_status_descr}&amp;amp;sysparam_u_manager_nuid=${u_manager_nuid}&amp;amp;sysparam_u_manager_name=${u_manager_name}&amp;amp;sysparam_u_prov_lic_first_name=${u_prov_lic_first_name}&amp;amp;sysparam_u_prov_lic_middle_initial=${u_prov_lic_middle_initial}&amp;amp;sysparam_u_prov_lic_last_name=${u_prov_lic_last_name}&amp;amp;sysparam_u_nuid=${u_nuid}&amp;amp;sysparam_u_kpim_status=${u_kpim_status}&amp;amp;sysparam_u_email=${u_email}&amp;amp;sysparam_u_national_provider_id=${u_national_provider_id}&amp;amp;sysparam_u_lotus_notes_id=${u_lotus_notes_id}"&gt;here&lt;/a&gt; to open the pending order guide.&lt;/p&gt;&#13;
+&lt;p&gt;Sys ID: ${sys_id}&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Name: ${u_first_name}&amp;nbsp;${u_last_name}&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>daaab97e4f7a230050ac01f18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eaab97e4f7a230050ac01f18110c7ec</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>9eaab97e4f7a230050ac01f18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+answer='whafa23@gmail.com,richard.thomas@kp.org';&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Email CPM Admin">5eaab97e4f7a230050ac01f18110c7ec</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>deaab97e4f7a230050ac01f18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>12aafd3e4f7a230050ac01f18110c710</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="TPO New Service Request - CPM">d2aafd3e4f7a230050ac01f18110c70e</workflow_version>
+        <x>400</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=12aafd3e4f7a230050ac01f18110c710"/>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">deaab97e4f7a230050ac01f18110c7ee</condition>
+        <from display_value="Email CPM Admin">5eaab97e4f7a230050ac01f18110c7ec</from>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>16aab97e4f7a230050ac01f18110c7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <to display_value="End">12aafd3e4f7a230050ac01f18110c710</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d6aab97e4f7a230050ac01f18110c7ec</condition>
+        <from display_value="Begin">1eaab97e4f7a230050ac01f18110c7eb</from>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>52aab97e4f7a230050ac01f18110c7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <to display_value="Email CPM Admin">5eaab97e4f7a230050ac01f18110c7ec</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-08 09:28:01</sys_created_on>
+        <sys_id>d6aafd3e4f7a230050ac01f18110c70e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-08 09:28:01</sys_updated_on>
+        <workflow_version display_value="TPO New Service Request - CPM">d2aafd3e4f7a230050ac01f18110c70e</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=8dbeaaaa4fb2230050ac01f18110c7a1^sys_id!=d2aafd3e4f7a230050ac01f18110c70e">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

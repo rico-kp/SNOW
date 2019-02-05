@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_mnemonic" label="Mnemonic" language="en" table="x_293732_onboardin_tpo_facilities_staging">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_mnemonic</element>
+            <help/>
+            <hint/>
+            <label>Mnemonic</label>
+            <language>en</language>
+            <name>x_293732_onboardin_tpo_facilities_staging</name>
+            <plural>Mnemonics</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-29 21:12:19</sys_created_on>
+            <sys_id>ff35ec394f5f230050ac01f18110c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Mnemonic</sys_name>
+            <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+            <sys_update_name>sys_documentation_x_293732_onboardin_tpo_facilities_staging_u_mnemonic_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-29 21:12:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

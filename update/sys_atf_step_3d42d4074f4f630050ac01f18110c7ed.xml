@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate record from table 'x_293732_onboardin_test_table_no_workflow' matches the following condition:
+Test Field = Some value
+With a failure timeout of 3 Seconds</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>3d42d4074f4f630050ac01f18110c7ed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_atf_step_3d42d4074f4f630050ac01f18110c7ed</sys_update_name>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 07:12:17</sys_updated_on>
+        <table>x_293732_onboardin_test_table_no_workflow</table>
+        <test display_value="TPO Insert validation test">c80214074f4f630050ac01f18110c772</test>
+        <timeout>1970-01-01 00:00:03</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3d42d4074f4f630050ac01f18110c7ed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d42d4074f4f630050ac01f18110c7ed</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>335254074f4f630050ac01f18110c771</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 07:12:17</sys_updated_on>
+        <value>test_field=Some value^EQ</value>
+        <variable display_value="">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d42d4074f4f630050ac01f18110c7ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>7f5254074f4f630050ac01f18110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <value>x_293732_onboardin_test_table_no_workflow</value>
+        <variable display_value="">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d42d4074f4f630050ac01f18110c7ed</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>bb5254074f4f630050ac01f18110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d42d4074f4f630050ac01f18110c7ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>f35254074f4f630050ac01f18110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d42d4074f4f630050ac01f18110c7ed</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>f75254074f4f630050ac01f18110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <value/>
+        <variable display_value="">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d42d4074f4f630050ac01f18110c7ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>3d42d4074f4f630050ac01f18110c7ed</id>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>fb5254074f4f630050ac01f18110c76f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>3d42d4074f4f630050ac01f18110c7ed</id>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>735254074f4f630050ac01f18110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>3d42d4074f4f630050ac01f18110c7ed</id>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>3b5254074f4f630050ac01f18110c76f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['b71294074f4f630050ac01f18110c723'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>3d42d4074f4f630050ac01f18110c7ed</id>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 06:46:33</sys_created_on>
+        <sys_id>bf5254074f4f630050ac01f18110c76f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 06:46:33</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

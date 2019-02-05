@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="TPO_Facilities_Staging" max_length="40" name="x_293732_onboardin_tpo_facilities_staging" type="collection">
+        <element attributes="import_attribute_name=Facility,edge_encryption_enabled=true" label="Facility " max_length="40" name="u_facility" type="string"/>
+        <element attributes="import_attribute_name=Mnemonic,edge_encryption_enabled=true" label="Mnemonic" max_length="40" name="u_mnemonic" type="string"/>
+    </element>
+</database>

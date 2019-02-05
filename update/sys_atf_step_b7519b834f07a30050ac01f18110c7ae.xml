@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open 'Testing Provisioning One System' catalog item</description>
+        <display_name>Open a Catalog Item</display_name>
+        <inputs/>
+        <order>1</order>
+        <step_config display_value="Open a Catalog Item">2516c0e1c332220076173b0ac3d3ae39</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 20:41:17</sys_created_on>
+        <sys_id>b7519b834f07a30050ac01f18110c7ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Catalog Item</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_atf_step_b7519b834f07a30050ac01f18110c7ae</sys_update_name>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 20:41:17</sys_updated_on>
+        <table/>
+        <test display_value="TPO provisioning system default variable values">a601d7834f07a30050ac01f18110c716</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b7519b834f07a30050ac01f18110c7ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b7519b834f07a30050ac01f18110c7ae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-01-21 20:41:17</sys_created_on>
+        <sys_id>1f61db834f07a30050ac01f18110c718</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-01-21 20:41:17</sys_updated_on>
+        <value>5a422e804f46630050ac01f18110c766</value>
+        <variable display_value="">b0d64ce1c332220076173b0ac3d3ae95</variable>
+    </sys_variable_value>
+</record_update>

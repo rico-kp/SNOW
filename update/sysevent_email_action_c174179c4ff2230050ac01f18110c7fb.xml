@@ -2,7 +2,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -35,9 +35,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>A new physician is pending your approval.&nbsp; Please click <a href="https://dev43357.service-now.com/nav_to.do?uri=%2Fcom.glideapp.servicecatalog_cat_item_guide_view.do%3Fv%3D1%26sysparm_initial%3Dtrue%26sysparm_guide%3D22081b104f36230050ac01f18110c7ad%26sysparm_physician%3D${sys_id}%26sysparm_firstname%3D${u_first_name}%26sysparm_lastname%3D${u_last_name}">here</a> to open the pending order guide.</p>
+        <message_html><![CDATA[<p>A new physician is pending your approval.&nbsp; Please click <a title="here" href="https://dev43357.service-now.com/com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=22081b104f36230050ac01f18110c7ad&amp;sysparam_fname=${u_first_name}&amp;sysparam_lname=${u_last_name}&amp;sysparam_middlei=${u_middle_initial}&amp;sysparam_u_ssn=${u_ssn}&amp;sysparam_u_birthdate=${u_birthdate}&amp;sysparam_u_hire_dt=${u_hire_dt}&amp;sysparam_u_termination_dt=${u_termination_dt}&amp;sysparam_u_empl_status=${u_empl_status}&amp;sysparam_u_emplid=${u_emplid}&amp;sysparam_u_entity=${u_entity}&amp;sysparam_u_location=${u_location}&amp;sysparam_u_region_cd=${u_region_cd}&amp;sysparam_u_site_id=${u_site_id}&amp;sysparam_u_loc_address1=${u_loc_address1}&amp;sysparam_u_loc_city=${u_loc_city}&amp;sysparam_u_loc_state=${u_loc_state}&amp;sysparam_u_loc_postal=${u_loc_postal}&amp;sysparam_u_name_prefix=${u_name_prefix}&amp;sysparam_u_dept_descr=${u_dept_descr}&amp;sysparam_u_dept_id=${u_dept_id}&amp;sysparam_u_adm_desc=${u_adm_desc}&amp;sysparam_u_jobcode=${u_jobcode}&amp;sysparam_u_name_suffix=${u_name_suffix}&amp;sysparam_u_admin_title=${u_admin_title}&amp;sysparam_u_loc_descr=${u_loc_descr}&amp;sysparam_u_action_reason=${u_action_reason}&amp;sysparam_u_action=${u_action}&amp;sysparam_u_company_descr=${u_company_descr}&amp;sysparam_u_company_id=${u_company_id}&amp;sysparam_u_empl_status_descr=${u_empl_status_descr}&amp;sysparam_u_manager_nuid=${u_manager_nuid}&amp;sysparam_u_manager_name=${u_manager_name}&amp;sysparam_u_prov_lic_first_name=${u_prov_lic_first_name}&amp;sysparam_u_prov_lic_middle_initial=${u_prov_lic_middle_initial}&amp;sysparam_u_prov_lic_last_name=${u_prov_lic_last_name}&amp;sysparam_u_nuid=${u_nuid}&amp;sysparam_u_kpim_status=${u_kpim_status}&amp;sysparam_u_email=${u_email}&amp;sysparam_u_national_provider_id=${u_national_provider_id}&amp;sysparam_u_lotus_notes_id=${u_lotus_notes_id}">here</a> to open the pending order guide.</p>
 <p>Sys ID: ${sys_id}&nbsp;</p>
-<p>Name: ${u_first_name}&nbsp;${u_last_name}</p>]]></message_html>
+<p>Name: ${u_first_name}&nbsp;${u_last_name}</p>
+<p>*CS*</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>TPO_EmailApproval</name>
@@ -59,15 +60,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c174179c4ff2230050ac01f18110c7fb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>TPO_EmailApproval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sysevent_email_action_c174179c4ff2230050ac01f18110c7fb</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-31 22:29:37</sys_updated_on>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-11 13:40:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

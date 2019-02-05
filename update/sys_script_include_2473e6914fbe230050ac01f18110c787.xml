@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_293732_onboardin.HelloWorld</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HelloWorld</name>
+        <script><![CDATA[var HelloWorld = Class.create();
+HelloWorld.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+   HelloWorld:function() { return "Hello " + this.getParameter('sysparm_user_name') + "!"; } ,
+   _privateFunction: function() { // this function is not client callable     
+    }
+ });]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-03 20:38:29</sys_created_on>
+        <sys_id>2473e6914fbe230050ac01f18110c787</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HelloWorld</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_script_include_2473e6914fbe230050ac01f18110c787</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-03 20:46:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

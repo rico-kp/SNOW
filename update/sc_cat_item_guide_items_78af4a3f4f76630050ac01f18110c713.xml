@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:7a0747954ffe230050ac01f18110c711=true^EQ</condition>
+        <guide display_value="TPMG Onboarding Order Guide">22081b104f36230050ac01f18110c7ad</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="S3-RSO">756678c54f32230050ac01f18110c7af</item>
+        <order>100</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-11 13:33:59</sys_created_on>
+        <sys_id>78af4a3f4f76630050ac01f18110c713</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>756678c54f32230050ac01f18110c7af</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_78af4a3f4f76630050ac01f18110c713</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-11 13:33:59</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

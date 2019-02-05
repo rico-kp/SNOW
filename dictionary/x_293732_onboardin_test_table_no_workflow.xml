@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Table No Workflow" max_length="40" name="x_293732_onboardin_test_table_no_workflow" type="collection">
+        <element label="Test Field" max_length="40" name="test_field" type="string_full_utf8"/>
+    </element>
+</database>

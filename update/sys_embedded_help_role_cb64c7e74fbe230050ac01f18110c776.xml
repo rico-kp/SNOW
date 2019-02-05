@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_293732_onboardin.pending_physicians_test_dev_user" name="x_293732_onboardin.pending_physicians_test_dev_user">7a64cf674fbe230050ac01f18110c780</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>reddymantrala@gmail.com</sys_created_by>
+        <sys_created_on>2019-01-10 22:45:44</sys_created_on>
+        <sys_id>cb64c7e74fbe230050ac01f18110c776</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7a64cf674fbe230050ac01f18110c780</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_cb64c7e74fbe230050ac01f18110c776</sys_update_name>
+        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
+        <sys_updated_on>2019-01-10 22:45:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TPO_Facilities" max_length="40" name="x_293732_onboardin_tpo_facilities" type="collection">
+        <element display="true" label="FacilityName" max_length="255" name="facilityname" type="string_full_utf8"/>
+        <element label="Mnemonic" max_length="255" name="mnemonic" type="string_full_utf8"/>
+    </element>
+</database>
