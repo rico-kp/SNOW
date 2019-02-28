@@ -2,14 +2,14 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_293732_onboardin.TpoOrderGuidePopulator</api_name>
+        <api_name>x_293732_onboardin.TpoOrderGuidePopulatorOld</api_name>
         <client_callable>true</client_callable>
         <description>Provide the data needed to populate the TPMG Physician Onboarding order guide.   Main method is getTpoOrderGuideFieldValues, which takes the sys_id of a row from Pending Physicians, and returns an object, mapping the field names on the order guide, to the values to be populated in the fields. &#13;
 &#13;
 Other methods may be added as needed to reformat or derive values, when the column contents are not directly usable.  </description>
-        <name>TpoOrderGuidePopulator</name>
-        <script><![CDATA[var TpoOrderGuidePopulator = Class.create();
-TpoOrderGuidePopulator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <name>TpoOrderGuidePopulatorOld</name>
+        <script><![CDATA[var TpoOrderGuidePopulatorOld = Class.create();
+TpoOrderGuidePopulatorOld.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	getTpoOrderGuideFieldValuesJson: function() {
 		var valueList = getTpoOrderGuideFieldValues(this.getParameter('sysparm_physician'));
 		
@@ -22,8 +22,8 @@ TpoOrderGuidePopulator.prototype = Object.extendsObject(global.AbstractAjaxProce
 	getTpoOrderGuideFieldValues: function(pendingPhysicianSysId) {
 		var physicianGlideRecord = new GlideRecord("x_293732_onboardin_pending_physicians"); // change to global table
 		physicianGlideRecord.get(pendingPhysicianSysId); 
-		gs.info('in TpoOrderGuidePopulator.getTpoOrderGuideFieldValues; record: '+pendingPhysicianSysId);
-		gs.info('in TpoOrderGuidePopulator.getTpoOrderGuideFieldValues; gr is valid: '+physicianGlideRecord.isValidRecord());
+		gs.info('in TpoOrderGuidePopulatorOld.getTpoOrderGuideFieldValues; record: '+pendingPhysicianSysId);
+		gs.info('in TpoOrderGuidePopulatorOld.getTpoOrderGuideFieldValues; gr is valid: '+physicianGlideRecord.isValidRecord());
 
 		var fieldValues = {};
 		gs.info('first name: '+physicianGlideRecord.u_first_name); 
@@ -35,19 +35,19 @@ TpoOrderGuidePopulator.prototype = Object.extendsObject(global.AbstractAjaxProce
 		return fieldValues;
 	},
 	
-    type: 'TpoOrderGuidePopulator'
+    type: 'TpoOrderGuidePopulatorOld'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
         <sys_created_on>2018-12-31 18:42:19</sys_created_on>
         <sys_id>20d2aad44f72230050ac01f18110c750</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>TpoOrderGuidePopulator</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>TpoOrderGuidePopulatorOld</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_script_include_20d2aad44f72230050ac01f18110c750</sys_update_name>
         <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
-        <sys_updated_on>2019-01-21 18:41:03</sys_updated_on>
+        <sys_updated_on>2019-02-08 21:25:44</sys_updated_on>
     </sys_script_include>
 </record_update>

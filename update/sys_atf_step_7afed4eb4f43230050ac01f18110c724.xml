@@ -10,14 +10,14 @@
         <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
         <sys_created_on>2019-01-22 21:08:55</sys_created_on>
         <sys_id>7afed4eb4f43230050ac01f18110c724</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_atf_step_7afed4eb4f43230050ac01f18110c724</sys_update_name>
-        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
-        <sys_updated_on>2019-01-25 22:37:39</sys_updated_on>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-02-08 20:59:16</sys_updated_on>
         <table/>
         <test display_value="TPO variables for TPO order guide">ef4e10eb4f43230050ac01f18110c71d</test>
         <timeout/>
@@ -31,10 +31,20 @@
         <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
         <sys_created_on>2019-01-22 21:08:55</sys_created_on>
         <sys_id>b1512c2f4f43230050ac01f18110c78c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
-        <sys_updated_on>2019-01-25 22:37:39</sys_updated_on>
-        <value>// You can use this step to execute a variety of server-side javascript tests including&#13;
+        <sys_mod_count>32</sys_mod_count>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-02-08 20:59:16</sys_updated_on>
+        <value>function assertion(assertionName, assertionShould, assertionValue, assertEqual) {&#13;
+	&#13;
+	var testAssertion = {&#13;
+            name: assertionName,&#13;
+            shouldbe: assertionShould,&#13;
+            value: assertionValue&#13;
+};&#13;
+assertEqual(testAssertion);&#13;
+	&#13;
+}&#13;
+// You can use this step to execute a variety of server-side javascript tests including&#13;
 // jasmine tests and custom assertions&#13;
 //&#13;
 //&#13;
@@ -113,7 +123,7 @@
 //&#13;
 (function(outputs, steps, stepResult, assertEqual) {&#13;
     // add test script here&#13;
-	gs.info("in TPO variables for TPO Order Guide");&#13;
+	/*gs.info("in TPO variables for TPO Order Guide");&#13;
 	var grOrderGuide = new GlideRecord('sc_cat_item_guide'); &#13;
 	grOrderGuide.addQuery('name', 'TPMG Onboarding Order Guide');&#13;
 	grOrderGuide.query();&#13;
@@ -125,7 +135,32 @@
 		//expected number of variables&#13;
 		gs.info("expected number of variables"+gr.getRowCount());&#13;
 	    while (gr.next()) {&#13;
-	    	 gs.info("found variable: "+gr.name);&#13;
+	    	 gs.info("found variable: "+gr.name);*/&#13;
+			&#13;
+    var expectedRecordCount = 18;&#13;
+	var expectedFirstRecord ='aa';&#13;
+	var expectedLastRecord = 'Winfred';	&#13;
+		var actualFirstRecord,actualLastRecord;&#13;
+var grFacilityFirst = new GlideRecord("x_293732_onboardin_pending_physicians");&#13;
+grFacilityFirst.orderBy('u_first_name');&#13;
+grFacilityFirst.query();&#13;
+	var actualRecordCount = grFacilityFirst.getRowCount();&#13;
+if (grFacilityFirst.next()) {&#13;
+    actualFirstRecord = grFacilityFirst.u_first_name;&#13;
+}&#13;
+&#13;
+var grFacilityLast = new GlideRecord("x_293732_onboardin_pending_physicians");&#13;
+grFacilityLast.orderByDesc('u_first_name');&#13;
+grFacilityLast.query();&#13;
+if (grFacilityLast.next()) {&#13;
+    actualLastRecord = grFacilityLast.u_first_name;&#13;
+}&#13;
+		&#13;
+this.assertion("row count of x_293732_onboardin_pending_physicians", expectedRecordCount, actualRecordCount, assertEqual); &#13;
+	&#13;
+this.assertion("u_first_name", expectedFirstRecord, actualFirstRecord, assertEqual); &#13;
+&#13;
+this.assertion("u_last_name", expectedLastRecord, actualLastRecord, assertEqual); &#13;
 &#13;
 		&#13;
 //  			if(!this.verifyVariable(gr.name, gr.type)){&#13;
@@ -133,12 +168,15 @@
 // 				break;&#13;
 // 			} &#13;
 			&#13;
-			if (!(gr.type =='7' || gr.type=='6')){&#13;
+		/*	if (!(gr.type =='7' || gr.type=='6')){&#13;
 			//if(gr.type !='7'){&#13;
 			stepResult.setOutputMessage("Invalid Type of Variable found for TPMG Onboarding Order Guide");&#13;
 				stepResult.setFailed();&#13;
-				return; &#13;
-		}&#13;
+				return; */&#13;
+		} &#13;
+			&#13;
+			&#13;
+			&#13;
 			//assert (gr.type == '7' &amp;&amp; list.size() &gt; 0 ){&#13;
 			//	gs.info("Condition is satisfied");&#13;
 	&#13;
@@ -159,12 +197,13 @@
 //      };&#13;
 //      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
 &#13;
-	    }&#13;
+	 //   }&#13;
 		&#13;
-	} else {&#13;
+ // } &#13;
+	/*else {&#13;
 		stepResult.setOutputMessage("Unable to find sys_id for TPMG Onboarding Order Guide");&#13;
 		return false; &#13;
-	}&#13;
+	}*/&#13;
 // 	  var step3_sys_id  = 'c5491b0b4f07a30050ac01f18110c727';&#13;
 // 	  var step5_sys_id  = '76477f4f4f47a30050ac01f18110c70b';&#13;
 // //	  var insert_step_sys_id = 'be58d23a4f0b630050ac01f18110c74d'; &#13;
@@ -194,9 +233,12 @@
 	// asssert our table is sc_cat_item_guide&#13;
 	// query item_option_new where sc_cat_item is our sc_cat_item_guide record&#13;
 	// show each variable &#13;
-})(outputs, steps, stepResult, assertEqual);&#13;
+)(outputs, steps, stepResult, assertEqual);&#13;
+&#13;
+&#13;
+ &#13;
 // uncomment the next line to execute this script as a jasmine test&#13;
-jasmine.getEnv().execute();&#13;
+//jasmine.getEnv().execute();&#13;
 // 	function  verifyVariable(name, variableType) {&#13;
 // 				// two assertions go here &#13;
 // 		if(variableType =='7' || variableType=='6'){&#13;

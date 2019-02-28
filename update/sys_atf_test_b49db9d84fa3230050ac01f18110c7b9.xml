@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>TPO validating Variables</description>
+        <name>TPO with assertions</name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Steven.J.Doubleday@kp.org</sys_created_by>
+        <sys_created_on>2019-02-06 22:03:02</sys_created_on>
+        <sys_id>b49db9d84fa3230050ac01f18110c7b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TPO with assertions</sys_name>
+        <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
+        <sys_update_name>sys_atf_test_b49db9d84fa3230050ac01f18110c7b9</sys_update_name>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-02-06 22:03:20</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=b49db9d84fa3230050ac01f18110c7b9"/>
+</record_update>

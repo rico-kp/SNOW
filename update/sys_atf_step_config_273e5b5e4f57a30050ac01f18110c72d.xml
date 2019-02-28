@@ -20,7 +20,93 @@
         <order>100</order>
         <outputs/>
         <step_env display_value="Server - Independent">6c2bcea1870312009dccc9ded0e3ecca</step_env>
-        <step_execution_generator><![CDATA[// The inputs are a map of the variables defined in the inputs related list below.
+        <step_execution_generator><![CDATA[(function(outputs, steps, stepResult, assertEqual) {
+    // add test script here
+	gs.info("in TPO variables for TPO Order Guide");
+	var grOrderGuide = new GlideRecord('sc_cat_item_guide'); 
+	grOrderGuide.addQuery('name', 'TPMG Onboarding Order Guide');
+	grOrderGuide.query();
+	if (grOrderGuide.next()) {
+		gs.info("sysid for TPMG Onboarding Order Guide: "+grOrderGuide.sys_id);
+        var gr = new GlideRecord('item_option_new');
+	    gr.addQuery('cat_item', grOrderGuide.sys_id);
+	    gr.query(); 
+		//expected number of variables
+		gs.info("expected number of variables"+gr.getRowCount());
+	    while (gr.next()) {
+	    	 gs.info("found variable: "+gr.name);
+
+		
+//  			if(!this.verifyVariable(gr.name, gr.type)){
+// 				stepResult.setOutputMessage("Invalid Type of Variable found for TPMG Onboarding Order Guide");
+// 				break;
+// 			} 
+			
+			if (!(gr.type =='7' || gr.type=='6')){
+			//if(gr.type !='7'){
+			stepResult.setOutputMessage("Invalid Type of Variable found for TPMG Onboarding Order Guide");
+				stepResult.setFailed();
+				return; 
+		}
+			//assert (gr.type == '7' && list.size() > 0 ){
+			//	gs.info("Condition is satisfied");
+	
+			//assert gr.type=='7': "Condition is satisfied";
+			
+	
+           
+			
+			// or 'Single Line Text'
+			// for each variable:
+			//   expected name
+			//   expected type of input 
+			
+			//      var testAssertion = {
+//            name: "my test assertion",
+//            shouldbe: "expected value"
+//            value: "actual value",
+//      };
+//      assertEqual(testAssertion); // throws Error, logs message to test step output
+
+	    }
+		
+	} else {
+		stepResult.setOutputMessage("Unable to find sys_id for TPMG Onboarding Order Guide");
+		return false; 
+	}
+// 	  var step3_sys_id  = 'c5491b0b4f07a30050ac01f18110c727';
+// 	  var step5_sys_id  = '76477f4f4f47a30050ac01f18110c70b';
+// //	  var insert_step_sys_id = 'be58d23a4f0b630050ac01f18110c74d'; 
+// 	for (var key in steps(step3_sys_id)) {
+// 		gs.info("key from steps "+step3_sys_id+" : "+key);
+// 		gs.info(" value: "+steps(step3_sys_id)[key]);
+// 	}
+// 	  var table = steps(step3_sys_id).table; 
+// 	  var copiedRecordId = steps(step3_sys_id).record_id; 
+// 	gs.info("table: "+table);
+// 	gs.info("Copied record: "+copiedRecordId); 
+//      var testAssertion = {
+//            name: "expecting order guide table",
+//            shouldbe: "sc_cat_item_guide",
+//            value: table
+//      };
+//      assertEqual(testAssertion); // throws Error, logs message to test step output
+  
+	
+	
+// 		testAssertion.name = "populated data first name"; 
+// 		testAssertion.shouldbe = "ATFtest";	
+// 		testAssertion.value = populatedData.u_first_name;
+// 		assertEqual(testAssertion);
+
+	
+	// asssert our table is sc_cat_item_guide
+	// query item_option_new where sc_cat_item is our sc_cat_item_guide record
+	// show each variable 
+})(outputs, steps, stepResult, assertEqual);
+// uncomment the next line to execute this script as a jasmine test
+jasmine.getEnv().execute();
+// The inputs are a map of the variables defined in the inputs related list below.
 // Inputs are consumed in the step configuration. Input
 // values may be hardcoded or mapped from the outputs of a previous step.
 // If a test author using your step uses mapping to pass in an output from a previous 
@@ -71,58 +157,25 @@
 //      stepResult.setOutputMessage('Failure!');
 //      stepResult.setFailed();
 //
-(function executeStep(inputs, outputs, stepResult, timeout) {
 	
-	var expectedRecordCount = 53;
-	var expectedFirstRecord ='ALM';
-	var expectedLastRecord = 'WCR';
-	var actualFirstRecord,actualLastRecord;
-var grFacilityFirst = new GlideRecord("x_293732_onboardin_tpo_facilities");
-grFacilityFirst.orderBy('mnemonic');
-grFacilityFirst.query();
-	var actualRecordCount = grFacilityFirst.getRowCount();
-if (grFacilityFirst.next()) {
-    actualFirstRecord = grFacilityFirst.mnemonic;
-}
-
-var grFacilityLast = new GlideRecord("x_293732_onboardin_tpo_facilities");
-grFacilityLast.orderByDesc('mnemonic');
-grFacilityLast.query();
-if (grFacilityLast.next()) {
-    actualLastRecord = grFacilityLast.mnemonic;
-}
-if(expectedRecordCount == actualRecordCount){
-	stepResult.setOutputMessage(gs.getMessage('Record Count is matched'));
-}else{
-	stepResult.setOutputMessage(gs.getMessage('Record Count is not matched'));
-}
-	if(expectedFirstRecord == actualFirstRecord){
-	stepResult.setOutputMessage(gs.getMessage('First Record is matched'));
-}else{
-	stepResult.setOutputMessage(gs.getMessage('First Record is not matched'));
-}
-if(expectedLastRecord == actualLastRecord){
-	stepResult.setOutputMessage(gs.getMessage('Last Record is matched'));
-}else{
-	stepResult.setOutputMessage(gs.getMessage('Last Record is not matched'));
-}
-	
-	
-
-}(inputs, outputs, stepResult, timeout));
+	// asssert our table is sc_cat_item_guide
+	// query item_option_new where sc_cat_item is our sc_cat_item_guide record
+	// show each variable 
+//})(outputs, steps, stepResult, assertEqual);
+// uncomment the next line to execute this script as a jasmine test
 ]]></step_execution_generator>
         <sys_class_name>sys_atf_step_config</sys_class_name>
         <sys_created_by>reddymantrala@gmail.com</sys_created_by>
         <sys_created_on>2019-01-31 23:59:51</sys_created_on>
         <sys_id>273e5b5e4f57a30050ac01f18110c72d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Validate TPO Facility</sys_name>
         <sys_package display_value="Onboarding" source="x_293732_onboardin">891ecccd4ff5230050ac01f18110c7b1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding">891ecccd4ff5230050ac01f18110c7b1</sys_scope>
         <sys_update_name>sys_atf_step_config_273e5b5e4f57a30050ac01f18110c72d</sys_update_name>
-        <sys_updated_by>reddymantrala@gmail.com</sys_updated_by>
-        <sys_updated_on>2019-02-04 19:20:55</sys_updated_on>
+        <sys_updated_by>Steven.J.Doubleday@kp.org</sys_updated_by>
+        <sys_updated_on>2019-02-06 22:47:02</sys_updated_on>
         <template_reminder>Validating the records in TPO Facilities</template_reminder>
         <type display_value="Test Step" name="sys_atf_step">ce2b6512bcc02300aadb875973a34b82</type>
         <wizard_redirect/>
